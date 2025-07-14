@@ -1,6 +1,6 @@
 package core.math;
 
-public class MathMethods {
+public class MathMethod {
     public static void main(String[] args) {
         // Max
         System.out.println("Max of 5 and 10: " + Math.max(5, 10));

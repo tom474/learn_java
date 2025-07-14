@@ -1,6 +1,6 @@
 package core.operators;
 
-public class LogicalOperators {
+public class LogicalOperator {
     public static void main(String[] args) {
         boolean isTrue = true;
         boolean isFalse = false;

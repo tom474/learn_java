@@ -1,6 +1,6 @@
 package core.strings;
 
-public class SpecialCharacters {
+public class SpecialCharacter {
     public static void main(String[] args) {
         // Single quote
         System.out.println("Hello! My name is \'Tom Tran\'.");

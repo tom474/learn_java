@@ -1,6 +1,6 @@
 package core.operators;
 
-public class AssignmentOperators {
+public class AssignmentOperator {
     public static void main(String[] args) {
         int num = 7;
         System.out.println("Initial value: " + num);

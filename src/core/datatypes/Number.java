@@ -1,6 +1,6 @@
 package core.datatypes;
 
-public class Numbers {
+public class Number {
     public static void main(String[] args) {
         // Byte
         byte myByte = 100;

@@ -1,6 +1,6 @@
 package core.operators;
 
-public class ComparisonOperators {
+public class ComparisonOperator {
     public static void main(String[] args) {
         int num1 = 5;
         int num2 = 3;

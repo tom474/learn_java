@@ -1,6 +1,6 @@
 package core.datatypes;
 
-public class Booleans {
+public class Boolean {
     public static void main(String[] args) {
         boolean isTrue = true;
         boolean isFalse = false;
