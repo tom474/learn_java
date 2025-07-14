@@ -4,13 +4,13 @@ public class IfStatement {
     public static void main(String[] args) {
         int time;
 
-        // The if statement
+        // If statement: checks a condition and executes code if true
         time = 10;
         if (time < 12) {
             System.out.println("Good morning!");
         }
 
-        // The else statement
+        // Else statement: checks a condition and executes code if the previous condition is false
         time = 15;
         if (time < 18) {
             System.out.println("Good day!");
@@ -18,7 +18,7 @@ public class IfStatement {
             System.out.println("Good evening!");
         }
 
-        // The else if statement
+        // Else if statement: checks multiple conditions in sequence
         time = 20;
         if (time < 12) {
             System.out.println("Good morning!");
@@ -28,7 +28,7 @@ public class IfStatement {
             System.out.println("Good evening!");
         }
 
-        // Shorthand if statement (ternary operator)
+        // Shorthand if statement (ternary operator): a compact way to write an if-else statement
         String result = (time < 18) ? "Good day!" : "Good evening!";
         System.out.println(result);
     }

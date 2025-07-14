@@ -5,7 +5,7 @@ public class SwitchStatement {
         int day = 3;
         String dayName;
 
-        // The switch statement
+        // Switch statement: allows a variable to be tested for equality against a list of values
         switch (day) {
             case 1:
                 dayName = "Monday";
