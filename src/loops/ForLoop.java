@@ -55,5 +55,18 @@ public class ForLoop {
             System.out.println("Odd number: " + i);
         }
         System.out.println("Finished loop with continue!");
+
+        // Labeled for loop: allows breaking out of nested loops
+        OUTER:
+        for (int i = 0; i < 3; i++) {
+            INNER:
+            for (int j = 0; j < 3; j++) {
+                if (i == 1 && j == 1) {
+                    System.out.println("Breaking out of both loops at i = " + i + ", j = " + j);
+                    break OUTER;
+                }
+                System.out.println("i: " + i + ", j: " + j);
+            }
+        }
     }
 }
