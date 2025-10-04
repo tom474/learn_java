@@ -1,7 +1,7 @@
 package output;
 
 public class PrintNumber {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // Output numbers
         System.out.println(1);
         System.out.println(12);

@@ -1,7 +1,7 @@
 package datatypes;
 
 public class TypeCasting {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // Widening Casting: converting a smaller type to a larger type
         // byte -> short -> int -> long -> float -> double
         int myInt = 10;

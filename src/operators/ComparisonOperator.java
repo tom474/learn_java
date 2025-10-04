@@ -1,7 +1,7 @@
 package operators;
 
 public class ComparisonOperator {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int num1 = 5;
         int num2 = 3;
 

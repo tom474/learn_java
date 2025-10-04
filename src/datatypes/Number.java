@@ -1,7 +1,7 @@
 package datatypes;
 
 public class Number {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // Byte: 8-bit signed integer
         byte myByte = 100;
         System.out.println("Byte value: " + myByte);

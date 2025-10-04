@@ -1,7 +1,7 @@
 package strings;
 
 public class Concatenation {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         String firstName = "Tom";
         String lastName = "Tran";
         int age = 20;

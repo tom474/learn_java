@@ -1,7 +1,7 @@
 package output;
 
 public class PrintText {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // Output text with a new line at the end
         System.out.println("Hello World!");
         System.out.println("I am learning Java!");

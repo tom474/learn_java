@@ -9,7 +9,7 @@ public class MethodOverloading {
         System.out.println("Hello, " + name + "! You are " + age + " years old.");
     }
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // Method with a single parameter
         myMethod("Cuong");
         myMethod("Tom");

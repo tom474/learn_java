@@ -5,7 +5,7 @@ public class Method {
         System.out.println("Hello from myMethod!");
     }
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         myMethod();
     }
 }

@@ -1,7 +1,7 @@
 package strings;
 
 public class StringMethod {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         String myString = "String";
         System.out.println("Length: " + myString.length());
         System.out.println("Uppercase: " + myString.toUpperCase());

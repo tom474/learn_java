@@ -1,7 +1,7 @@
 package variables;
 
 public class Variables {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // Declare variables
         String myString = "String";
         int myInteger = 7;

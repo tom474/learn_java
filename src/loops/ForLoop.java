@@ -1,7 +1,7 @@
 package loops;
 
 public class ForLoop {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // For loop: executes a block of code a specific number of times
         for (int i = 0; i < 5; i++) {
             System.out.println("i: " + i);
@@ -59,7 +59,6 @@ public class ForLoop {
         // Labeled for loop: allows breaking out of nested loops
         OUTER:
         for (int i = 0; i < 3; i++) {
-            INNER:
             for (int j = 0; j < 3; j++) {
                 if (i == 1 && j == 1) {
                     System.out.println("Breaking out of both loops at i = " + i + ", j = " + j);

@@ -1,7 +1,7 @@
 package operators;
 
 public class AssignmentOperator {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int num = 7;
         System.out.println("Initial value: " + num);
 

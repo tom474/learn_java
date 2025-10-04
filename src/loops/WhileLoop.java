@@ -1,7 +1,7 @@
 package loops;
 
 public class WhileLoop {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int countdown = 10;
 
         // While loop: executes as long as the condition is true

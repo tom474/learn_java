@@ -1,7 +1,7 @@
 package datatypes;
 
 public class Boolean {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         boolean isTrue = true;
         boolean isFalse = false;
 

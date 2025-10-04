@@ -1,9 +1,9 @@
 package strings;
 
 public class SpecialCharacter {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // Single quote
-        System.out.println("Hello! My name is \'Tom Tran\'.");
+        System.out.println("Hello! My name is 'Tom Tran'.");
 
         // Double quote
         System.out.println("Hello! My name is \"Tom Tran\".");

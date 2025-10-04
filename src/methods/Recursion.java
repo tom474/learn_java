@@ -21,7 +21,7 @@ public class Recursion {
         return end + sum(start, end - 1);
     }
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int result1 = sum(10);
         System.out.println("The sum of numbers from 1 to 10 is: " + result1);
 

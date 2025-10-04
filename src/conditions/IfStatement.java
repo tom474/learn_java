@@ -1,7 +1,7 @@
 package conditions;
 
 public class IfStatement {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int time;
 
         // If statement: checks a condition and executes code if true
