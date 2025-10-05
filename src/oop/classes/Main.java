@@ -58,6 +58,15 @@ public class Main {
         System.out.println("Weight: " + student.weight);
         System.out.println("Graduation year: " + student.graduationYear);
         student.study();
+
+        // Outer and inner class
+        OuterClass outerClass = new OuterClass();
+        OuterClass.StaticInnerClass staticInnerClass = new OuterClass.StaticInnerClass();
+        System.out.println(outerClass.x + staticInnerClass.y);
+        OuterClass.PublicInnerClass publicInnerClass = outerClass.new PublicInnerClass();
+        System.out.println(publicInnerClass.myInnerMethod() + publicInnerClass.y);
+        // OuterClass.PrivateInnerClass privateInnerClass = outerClass.new PrivateInnerClass();
+        // System.out.println(privateInnerClass.y);
     }
 
     // Static method
